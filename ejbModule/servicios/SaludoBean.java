@@ -15,4 +15,9 @@ public class SaludoBean implements SaludoBeanRemote {
         // TODO Auto-generated constructor stub
     }
 
+	@Override
+	public String saludar(String nombre) {
+		return "Hola " + nombre;
+	}
+
 }
